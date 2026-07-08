@@ -250,7 +250,7 @@ app.post("/api/gemini/chat", async (req: Request, res: Response) => {
 
     // Generate content using gemini-3.5-flash as specified in guidelines for general text/reasoning tasks
     const response = await ai.models.generateContent({
-      model: "gemini-3.5-flash",
+      model: "gemini-2.5-flash",
       contents: [
         ...formattedHistory,
         { role: "user", parts: [{ text: prompt }] }
