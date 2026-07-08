@@ -1,0 +1,6 @@
+{
+  "name": "CampusOne",
+  "description": "A premium, full-stack college operating system with real-time timetables, campus navigation, attendance calculators, and an intelligent natural language assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
